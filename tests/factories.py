@@ -1,21 +1,36 @@
 def product_data():
     return {
-        "name": "Iphone 14 Pro Max",
+        "name": "iPhone 14 Pro Max",
         "quantity": 10,
-        "price": "8.500",
+        "price": 8499.99,
         "status": True,
     }
 
 
 def products_data():
     return [
-        {"name": "Iphone 11 Pro Max", "quantity": 20, "price": "4.500", "status": True},
-        {"name": "Iphone 12 Pro Max", "quantity": 15, "price": "5.500", "status": True},
-        {"name": "Iphone 13 Pro Max", "quantity": 5, "price": "6.500", "status": True},
         {
-            "name": "Iphone 15 Pro Max",
-            "quantity": 3,
-            "price": "10.500",
-            "status": False,
+            "name": "iPhone 14 Pro Max",
+            "quantity": 10,
+            "price": 8499.99,
+            "status": True,
+        },
+        {
+            "name": "iPhone 14 Pro",
+            "quantity": 100,
+            "price": 5559,
+            "status": True,
+        },
+        {
+            "name": "iPhone 14 Max",
+            "quantity": 0,
+            "price": 7099,
+            "status": True,
+        },
+        {
+            "name": "iPhone 15",
+            "quantity": 1000,
+            "price": 18499.99,
+            "status": True,
         },
     ]
