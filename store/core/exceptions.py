@@ -7,4 +7,5 @@ class BaseException(Exception):
 
 
 class NotFoundException(BaseException):
-    message = "Not Found"
+    message = "Not found"
+    pass
