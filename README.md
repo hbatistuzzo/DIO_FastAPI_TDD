@@ -1,4 +1,17 @@
-# TDD Project
+<div align="center">
+<img src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg" alt="Logo Bootcamp" width="80">
+<h1> Coding The Future Vivo <br> Python AI Backend Developer </h1>
+<img src="https://hermes.dio.me/files/assets/ef695d25-f647-45eb-b1ad-a25c124b28ca.png" alt="Logo Bootcamp" width="220">
+</div>
+ 
+Objetivo: desenvolver uma API com FastAPI e explorar os conceitos de TDD. Parte do desafio proposto no bootcamp Python AI Backend Developer da DIO.
+
+#  Solução do desafio
+
+A estrutura geral do repositório e os códigos foram feitos seguindo o passo-a-passo da instrutora. Em seguida, foram adicionadas as modificações do desafio. Em particular:
+- Refinamento das mensagens de erro
+- Construção de query por nome / status / intervalo de preço / intervalo de quantidade
+- Pequenos ajustes e.g. modificações nos tipos das variáveis
 
 ## O que é TDD?
 TDD é uma sigla para `Test Driven Development`, ou Desenvolvimento Orientado a Testes. A ideia do TDD é que você trabalhe em ciclos.
@@ -185,5 +198,3 @@ Vamos utilizar Pyenv + Poetry, link de como preparar o ambiente abaixo:
 [model-serializer](https://docs.pydantic.dev/dev/api/functional_serializers/#pydantic.functional_serializers.model_serializer)
 
 [mongo-motor](https://motor.readthedocs.io/en/stable/)
-
-[pytest](https://docs.pytest.org/en/7.4.x/)
